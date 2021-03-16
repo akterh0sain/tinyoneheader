@@ -1,0 +1,47 @@
+/*fonts*/
+@font-face{
+	src: url("../fonts/PTC55F.ttf");
+		
+	font-family:'PTC55F';
+}
+@font-face{
+	src: url("../fonts/PTC75F.ttf");
+	font-family:'PTC75F';
+}
+/*font*/
+
+/*common code*/
+body{
+	font-family: 'PTC55F';
+	font-size: 16px;
+	font-weight: 400;
+	color: #010101;
+	
+}
+
+/*common code end*/
+
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 50px 0;
+}
+.logo{}
+.menu{}
+.menu ul li a{
+/*	font-family:'PTC75F';*/
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	padding: 0 35px !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+
+
+
+/*header end*/
